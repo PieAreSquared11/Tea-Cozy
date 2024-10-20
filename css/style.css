@@ -1,0 +1,168 @@
+/* fonts */
+
+h1, h2, h3, h4, h5, h6, a, p {
+  position: relative;
+  justify-self: center;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/* end fonts */
+
+/* body */
+
+body {
+  background-color: black;
+}
+
+/* end body */
+
+/* header */
+
+header a {
+  text-decoration: underline;
+  margin-right: 30px;
+}
+
+header nav {
+  justify-content: right;
+  padding: 24px 30px;
+}
+
+header {
+  background-color: black;
+  padding: 4.5px 10px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 1;
+  height: 69px;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+}
+
+/* end header */
+
+/* background */
+
+#mission-background {
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  margin-top: 69px;
+  width: 1100px;
+  height: 700px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mission-background section {
+  position: relative;
+  padding: 20px;
+  top: 50%;
+  background-color: black;
+}
+
+/* end background */
+
+/* tea of the month */
+
+#t-of-the-month {
+  position: relative;
+  display: block;
+  padding: 30px 10px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#t-of-the-month #teas {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.tea-img {
+  width: 300px;
+  height: 200px;
+}
+
+/* end tea of the month */
+
+/* location background */
+
+#loc-background {
+  position: relative;
+  text-align: center;
+  margin: 0px auto;
+  width: 1100px;
+  height: 500px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loc-background section {
+  position: relative;
+  padding: 20px;
+  top: 10%;
+}
+
+#loc-background section h2 {
+  margin-bottom: 15px;
+}
+
+#locations {
+  display: flex;
+}
+
+.location {
+  width: 300px;
+  padding: 10px 20px;
+  margin-right: 40px;
+  background-color: black;
+}
+
+.location h3 {
+  margin-bottom: 30px;
+}
+
+.location p {
+  margin-bottom: 30px;
+}
+
+/* end location background */
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 50px;
+}
+
+/* end footer */
+
+/* copyright-bar */
+
+#copyright-bar {
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* end copyright-bar */
